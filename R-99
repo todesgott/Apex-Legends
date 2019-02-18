@@ -1,0 +1,51 @@
+EnablePrimaryMouseButtonEvents(true);								
+function OnEvent(event, arg)								
+	if IsKeyLockOn("scrolllock" )then							
+	if IsMouseButtonPressed(3)then							
+		repeat						
+			if IsMouseButtonPressed(1) then					
+				MoveMouseRelative(-3,5)--2				
+				Sleep(60)				
+				MoveMouseRelative(2,15)				
+				Sleep(60)				
+				MoveMouseRelative(1,15)				
+				Sleep(60)				
+				MoveMouseRelative(-1,18)				
+				Sleep(60)				
+				MoveMouseRelative(-1,18)				
+				Sleep(60)				
+				MoveMouseRelative(-6,15)				
+				Sleep(60)				
+				MoveMouseRelative(-6,15)				
+				Sleep(60)				
+				MoveMouseRelative(-6,10)				
+				Sleep(60)				
+				MoveMouseRelative(-1,10)--10				
+				Sleep(60)				
+				MoveMouseRelative(3,10)				
+				Sleep(60)				
+				MoveMouseRelative(1,10)				
+				Sleep(60)				
+				MoveMouseRelative(3,10)				
+				Sleep(60)				
+				MoveMouseRelative(2,5)				
+				Sleep(60)				
+				MoveMouseRelative(0,5)				
+				Sleep(60)				
+				MoveMouseRelative(0,5)				
+				Sleep(60)				
+				MoveMouseRelative(-2,5)				
+				Sleep(60)				
+				MoveMouseRelative(0,5)--18				
+				Sleep(60)				
+					repeat			
+					MoveMouseRelative(0,1)			
+					Sleep(120)			
+			until not IsMouseButtonPressed(1)					
+		end						
+	until not IsMouseButtonPressed(3)							
+	Sleep(100)							
+	PressAndReleaseKey(0x2c)							
+	end							
+	end							
+	end							

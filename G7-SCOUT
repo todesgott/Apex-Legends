@@ -33,7 +33,7 @@ function OnEvent(event, arg)
 		end				
 	until not IsMouseButtonPressed(3)					
 	Sleep(100)					
-	PressAndReleaseKey(0x2c)					
+	PressAndReleaseKey("shift")					
 	end					
 	end					
 	end					

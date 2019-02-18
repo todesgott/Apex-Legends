@@ -1,0 +1,39 @@
+EnablePrimaryMouseButtonEvents(true);						
+function OnEvent(event, arg)						
+	if IsKeyLockOn("numlock" )then					
+	if IsMouseButtonPressed(3)then					
+		repeat				
+			if IsMouseButtonPressed(1) then			
+				MoveMouseRelative(0,20)		
+				Sleep(210)		
+				MoveMouseRelative(0,20)		
+				Sleep(210)		
+				MoveMouseRelative(0,15)		
+				Sleep(210)		
+				MoveMouseRelative(0,15)		
+				Sleep(210)		
+				MoveMouseRelative(5,10)		
+				Sleep(210)		
+				MoveMouseRelative(5,15)		
+				Sleep(210)		
+				MoveMouseRelative(5,20)		
+				Sleep(210)		
+				MoveMouseRelative(0,20)		
+				Sleep(210)		
+				MoveMouseRelative(Z5,20)		
+				Sleep(210)		
+				MoveMouseRelative(0,20)		
+				Sleep(210)		
+				MoveMouseRelative(0,20)		
+				Sleep(210)		
+					repeat	
+					MoveMouseRelative(0,1)	
+					Sleep(120)	
+			until not IsMouseButtonPressed(1)			
+		end				
+	until not IsMouseButtonPressed(3)					
+	Sleep(100)					
+	PressAndReleaseKey(0x2c)					
+	end					
+	end					
+	end					
